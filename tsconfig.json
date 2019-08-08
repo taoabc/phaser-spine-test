@@ -3,7 +3,7 @@
     "target": "esnext",
     "strict": true,
     "watch": false,
-    "module": "none",
+    "module": "commonjs",
     "noImplicitAny": true,
     "importHelpers": false,
     "sourceMap": true,
