@@ -23,10 +23,11 @@ function preload (this: Phaser.Scene)
 {
   // this.load.image('logo', 'assets/sprites/phaser.png');
 
-  this.load.setPath('assets/');
-  // this.plugins
+  // this.load.setPath('assets/');
+  // // this.plugins
 
-  this.load.spine('set1', 'raptor-pro.json', [ 'raptor-pma.atlas' ], true);
+  // this.load.spine('set1', 'raptor-pro.json', [ 'raptor-pma.atlas' ], true);
+  this.load.scenePlugin('SpinePlugin', 'plugins/SpineWebGLPlugin.js', 'Spine', 'spine')
 }
 
 function create (this: Phaser.Scene)
