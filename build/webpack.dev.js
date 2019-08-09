@@ -50,7 +50,8 @@ module.exports = {
       template: './public/template.html',
     }),
     new CopyWebpackPlugin([
-      { from: './assets/', to: 'assets/' }
+      { from: './assets/', to: 'assets/' },
+      { from: './node_modules/phaser/plugins/spine/dist/SpinePlugin.min.js', to: 'plugins/'}
     ]),
   ],
 
