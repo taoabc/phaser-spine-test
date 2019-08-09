@@ -59,7 +59,6 @@ module.exports = {
     // contentBase: `${__dirname}/../dist`,
     // publicPath: 'Demos/dist/',
     open: true,
-    compress: true,
-    port: 8456
+    compress: true
   }
 }
